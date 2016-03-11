@@ -1,0 +1,22 @@
+<html>
+<head>
+    <title>TOP</title>
+</head>
+<body>
+{{ if .Username }}
+<p>
+    <a href="/entry">エントリーリスト</a>
+</p>
+<p>
+    <a href="/logout">ログアウト</a>
+</p>
+{{ else }}
+<p>
+    <a href="/register">登録</a>
+</p>
+<p>
+    <a href="/login">ログイン</a>
+</p>
+{{ end }}
+</body>
+</html>
